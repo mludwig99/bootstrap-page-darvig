@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* Approximately 10px in new browser versions */
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    /* background-color: #333; */
+
+}
+
+[id] {
+    scroll-margin-top: 200px;
+}
+
+@media (min-width: 992px) {
+    [id] {
+        scroll-margin-top: 69px;
+    }
+}
+
+.hero-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: -1;
+}
+
+.orange-color {
+    color: rgb(225, 102, 0);
+}
+
+.navbar-brand {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+
+}
+
+.nav-link,
+.navbar-toggler-icon {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+.navbar-toggler {
+    padding: 1em 2em;
+
+}
+
+.home {
+    position: relative;
+    height: 60rem;
+    background-image: url('/img/img-secondary.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+.home .btn {
+    text-transform: uppercase;
+}
+
+.home .welcome-text {
+    font-size: 2rem;
+}
+
+.aboutus-box {
+    height: 90%;
+}
+
+.aboutus-box h3 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.aboutus-box i {
+    font-size: 4rem;
+}
+
+.accordion-button {
+    font-size: 1.8rem;
+    padding: 1em;
+
+}
+
+.accordion-button:not(.collapsed) {
+    color: rgb(225, 102, 0);
+    background-color: rgb(248, 248, 248);
+}
+
+.partners {
+    background-color: rgb(248, 248, 248);
+
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: contain;
+
+
+}
+
+.michal-img,
+.maciej-img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.partners .card-title {
+    font-size: 2.2rem;
+}
+
+.contact h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact .submit-form {
+    font-size: 1.6rem;
+}
+
+.adress-firm {
+    text-decoration: none;
+    color: white;
+}
+
+.adress-firm:hover {
+    cursor: pointer;
+    color: rgb(242, 231, 231);
+}
+
+.input-group-text {
+    font-size: 2rem;
+}
+
+.contact-info i {
+    margin-right: 5px;
+}
+
+
+
+
